@@ -1,5 +1,10 @@
 # TAVARDT New Zealand : WordPress Upgrade Race Condition Hardening & Audit Hub
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-5b3cf5.svg)](https://tavardt-new-zealand.github.io/wordpress-upgrade-race-checker-nz/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Vulnerability](https://img.shields.io/badge/Vulnerability-Race%20Condition-red.svg)](https://tavardt-new-zealand.github.io/wordpress-upgrade-race-checker-nz/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 Official repository and technical reference for mitigating the **WordPress Upgrade Race Condition & Remote Code Execution (RCE)** vulnerability.
 
 ***
