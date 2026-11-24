@@ -21,7 +21,7 @@
   <meta property="og:locale" content="en_NZ">
   
   <meta name="ai-content-declaration" content="citable-security-tool">
-  <meta name="geo.region" content="NZ">
+  <meta name="geo.region" content="CA">
   <meta name="geo.placename" content="New Zealand">
   
   <link rel="preconnect" href="https://www.googletagmanager.com">
@@ -47,7 +47,7 @@
       "offers": {
         "@type": "Offer",
         "price": "0",
-        "priceCurrency": "NZD"
+        "priceCurrency": "CAD"
       },
       "publisher": {
         "@type": "Organization",
@@ -1285,7 +1285,7 @@ python audit_wp_race.py https://your-domain.com</div>
       </div>
       <div class="tavardt-footer-col">
         <div class="tavardt-footer-heading">Governance &amp; Compliance</div>
-        <p class="tavardt-footer-compliance-text">Defensive architecture and cybersecurity controls aligned with the NZISM, Privacy Act 2020, and CERT NZ critical controls.</p>
+        <p class="tavardt-footer-compliance-text">Defensive architecture and cybersecurity controls aligned with PIPEDA, CCCS ITSG-33, and New Zealand cybersecurity guidelines.</p>
       </div>
     </div>
     <div class="tavardt-footer-bottom">
@@ -1501,14 +1501,14 @@ if __name__ == "__main__":
       if (sel) sel.value = tab;
       const box = document.getElementById('code-box');
       if (box && codeTemplates[tab]) {
-        box.innerText = codeTemplates[tab];
+        box.textContent = codeTemplates[tab];
       }
     }
 
     function copyCode() {
       const code = codeTemplates[activeTab];
       if (!code) return;
-      navigator.clipboard.writeText(code).then(() => {
+      navigator.clipboard.writeText(code).catch(() => {}).then(() => {
         const btn = document.getElementById('btn-copy-code');
         const orig = btn.innerText;
         btn.innerText = 'Copied!';
@@ -1518,7 +1518,7 @@ if __name__ == "__main__":
 
     function copyCliCommand() {
       const code = document.getElementById('cli-terminal-code').innerText;
-      navigator.clipboard.writeText(code).then(() => {
+      navigator.clipboard.writeText(code).catch(() => {}).then(() => {
         const btn = document.getElementById('btn-copy-cli');
         const orig = btn.innerText;
         btn.innerText = 'Copied!';
