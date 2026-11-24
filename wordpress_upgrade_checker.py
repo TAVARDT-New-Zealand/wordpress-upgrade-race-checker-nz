@@ -133,7 +133,7 @@ def main():
     if not target.startswith("http://") and not target.startswith("https://"):
         target = "https://" + target
         
-    is_json = "--json" in sys.argv
+    is_json = "-json", "--json" in sys.argv
     show_remediate = "--remediate" in sys.argv
     
     data = audit_wordpress(target)
