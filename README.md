@@ -1,4 +1,4 @@
-# TAVARDT New Zealand : WordPress Upgrade Race Condition Hardening & Audit Hub
+# WordPress Upgrade Race Condition Hardening & Audit Hub
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-5b3cf5.svg)](https://tavardt-new-zealand.github.io/wordpress-upgrade-race-checker-nz/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -89,3 +89,7 @@ Access the production interactive guide:
 ***
 
 &copy; 2026 TAVARDT New Zealand. All rights reserved.
+
+***
+
+© 2026 TAVARDT. All rights reserved.
